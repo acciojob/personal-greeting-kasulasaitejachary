@@ -8,13 +8,13 @@ const App = () => {
     setName(e.target.value);
   }
   return (
-    <div>
+    <>
       <h1>Enter your name:</h1>
       <form>
       <input type="text" onChange={changeName}/>
       </form>
       {name && <p>Hello {name}!</p>}
-    </div>
+    </>
   )
 }
 
