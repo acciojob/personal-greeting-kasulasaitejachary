@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <h1>Enter your name:</h1>
       <input type="text" onChange={changeName}/>
-      <p>{name}</p>
+      <p>{name}!</p>
     </div>
   )
 }
